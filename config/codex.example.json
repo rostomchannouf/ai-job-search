@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "framework": "/absolute/workspace/framework",
+  "paths": {
+    "workspace": "/absolute/workspace",
+    "profile": "/absolute/workspace/profile",
+    "state": "/absolute/workspace/state",
+    "archives": "/absolute/workspace/archives",
+    "runs": "/absolute/workspace/runs",
+    "reports": "/absolute/workspace/reports",
+    "resumes": "/absolute/workspace/resumes",
+    "letters": "/absolute/workspace/letters"
+  },
+  "sources": {
+    "frontend": "GOOGLE_DOC_URL",
+    "fullstack": "GOOGLE_DOC_URL"
+  },
+  "drive_folder_id": "DRIVE_FOLDER_ID",
+  "tracker": {
+    "spreadsheet_id": "SPREADSHEET_ID",
+    "sheet": "Tracking",
+    "sheet_id": 0,
+    "score_scale": 10
+  },
+  "search": {
+    "country": "DE",
+    "queries": [
+      "Software Engineer"
+    ],
+    "enabled_portals": [
+      "linkedin-search",
+      "freehire-search"
+    ],
+    "max_results_per_query": 10,
+    "recency_days": 14
+  },
+  "languages": {
+    "English": "C1"
+  },
+  "integrations": {
+    "gmail": false,
+    "notion": false,
+    "salary": false
+  },
+  "executables": {}
+}

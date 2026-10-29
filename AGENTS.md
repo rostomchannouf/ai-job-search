@@ -4,6 +4,13 @@ framework_version: 1.0.0
 
 # Agent Guidelines: AI Job Search
 
+## Codex external-workspace mode
+
+When the parent workspace contains `private/config.json`, first load its AGENTS.md and
+`.agents/skills/codex-job-workspace/SKILL.md` in this checkout. That adapter overrides
+the generic profile locations, CSV tracker, output paths and Claude runtime bindings
+below. Keep candidate information and artifacts outside this public checkout.
+
 This workspace is structured to manage job search activities, scraper tools, CVs, cover letters, and interview preparation.
 
 ## Thin-Pointer Design (Single Source of Truth)
